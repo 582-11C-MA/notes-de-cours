@@ -58,15 +58,22 @@ voici une définition de données pour la température :
 
 ```racket
 ;; Une Température est un Nombre.
-;; interprétation : degrées Celcius 
+;; interprétation : degrées Celsius 
 ```
 
 La première ligne indique le nom de la classe de données en majuscules
 (`Température`), suivi du type de valeurs choisi pour représenter
-l'information (`Nombre`). Selon la définition ci-haut, le nombre `102`
-est donc une température alors que la chaîne `"froid"` ne l'est pas. Une
-même information peut être représentée différemment selon l'énoncé du
-problème. La deuxième ligne indique comment interpréter la donnée.
+l'information (`Nombre`). On essayera de choisir un seul mot, deux tout
+au plus, pour nommer une classe. Selon la définition ci-haut, le nombre
+`102` est donc une température alors que la chaîne `"froid"` ne l'est
+pas. Une même information peut être représentée différemment selon
+l'énoncé du problème. 
+
+La deuxième ligne indique comment interpréter la donnée. Dans l'exemple
+ci-haut, la valeur `20` représente potentiellement une température
+puisque `20` est un nombre. Or, il n'est pas question de 20
+températures. Il n'est pas question de 20 chatons non plus. Plutôt, on
+interpréta la valeur `20` comme étant 20 *degrées Celsius*. 
 
 Vous remarquerez qu'une classe de données n'est rien de plus qu'un alias
 pour un des types de valeurs primitives (nombre, booléen, chaîne). Comme
@@ -79,7 +86,6 @@ de données.
 ;; Une Date est un Nombre entre 1 et 31.
 ;; interprétation : le jour du mois
 ```
-
 
 ## 3. Écrire la signature de la fonction
 
