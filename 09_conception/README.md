@@ -172,7 +172,7 @@ formule suivante :
 
     étant donné : <argument>, attend : <valeur-de-sortie>
 
-## 7. Choisir un gabarit
+## 7. Collecter les données
 
 La dernière étape avant de commencer à coder est de remplacer le corps
 de la fonction par un *gabarit*, et d'insérer dans celui-ci toutes les
