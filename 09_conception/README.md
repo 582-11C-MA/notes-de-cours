@@ -61,7 +61,7 @@ voici une définition de données pour la température :
 ;; interprétation : degrées Celsius 
 ```
 
-La première ligne indique le nom de la classe de données en majuscules
+La première ligne indique le nom de la classe de données en casse Pascal
 (`Température`), suivi du type de valeurs choisi pour représenter
 l'information (`Nombre`). On essayera de choisir un seul mot, deux tout
 au plus, pour nommer une classe. Selon la définition ci-haut, le nombre
