@@ -22,10 +22,8 @@ Lorsqu'un programme produit une valeur, il faut savoir comment
 interpréter celle-ci. Dans notre programme, que veut dire le nombre 
 `25` ? Que veut dire la chaîne `"rouge"` ? Que veut dire le booléen
 `#true` ? L'**interprétation** est donc la réponse à la question
-suivante :
-
-    Quelle est la signification d'une valeur qui fait partie de la
-    classe ?
+suivante : Quelle est la signification d'une valeur qui fait partie de
+la classe ?
 
 ### Examples
 
@@ -107,9 +105,8 @@ status d'une livraison (en préparation, en route, livrée), les enseignes
 d'un jeu de cartes (trèfle, carreau, cœur, pique), les permissions
 d'un·e utilisateur·rice (administrateur, éditeur, invité), etc.
 
-On peut aussi donner une interprétation différente pour chaque valeur
-possible. Cela est souvent nécessaire quand la valeur est un nombre dont
-la signification est ambigüe.
+On peut donner une interprétation pour toutes les valeurs, ou pour
+chaque valeur possible (voir les exemples ci-dessous). 
 
 ### Exemples
 
@@ -138,6 +135,7 @@ Définition pour un programme utilisé dans une bibliothèque :
 
 Définition pour un programme qui traduit des notes en grades :
 
+```
 ;; Un Grade est une Chaîne parmi :
 ;; - "A" interprétation : note entre 90 et 100
 ;; - "B" interprétation : note entre 80 et 90
@@ -145,6 +143,7 @@ Définition pour un programme qui traduit des notes en grades :
 ;; - "D" interprétation : note entre 60 et 70
 ;; - "E" interprétation : note entre 50 et 60
 ;; - "F" interprétation : note entre 0 et 50
+```
 
 ## Définition de données pour les listes
 
